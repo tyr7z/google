@@ -77,13 +77,13 @@ func (a *App) Obb(value uint64) string {
 
 // developer.android.com/ndk/guides/abis
 var Abis = []string{
+   // com.kakaogames.twodin
+   "arm64-v8a",
+   // com.sygic.aura
+   "armeabi-v7a",
    // com.google.android.youtube
    "x86",
    "x86_64",
-   // com.sygic.aura
-   "armeabi-v7a",
-   // com.kakaogames.twodin
-   "arm64-v8a",
 }
 
 func x_ps_rh(req *http.Request, check Checkin) error {
